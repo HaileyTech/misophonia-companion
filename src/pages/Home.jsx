@@ -42,7 +42,7 @@ function Home() {
       <section className="bg-pale-sage">
         <div className="page-container py-12 sm:py-16">
 
-          <p className="mb-8 font-medium text-sage">
+          <p className="mb-8 text-xl font-medium text-sage">
             Welcome to Misophonia Companion
           </p>
 
@@ -61,18 +61,26 @@ function Home() {
 
             <Link
               to="/sound-relief"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-sage px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-sage/90"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-sage px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-sage-dark"
             >
               Explore sound relief
-              <ArrowRight size={16} aria-hidden="true" />
+              <ArrowRight
+                size={16}
+                aria-hidden="true"
+                className="motion-safe:transition-transform motion-safe:group-hover:translate-x-1"
+              />
             </Link>
 
             <Link
               to="/learn"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-charcoal transition-colors hover:bg-soft-sage"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-base font-semibold text-charcoal transition-colors hover:bg-soft-sage"
             >
               Learn about misophonia
-              <ArrowRight size={16} aria-hidden="true" />
+              <ArrowRight
+                size={16}
+                aria-hidden="true"
+                className="motion-safe:transition-transform motion-safe:group-hover:translate-x-1"
+              />
             </Link>
 
           </div>

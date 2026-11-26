@@ -15,10 +15,14 @@ function ExploreCard({ title, description, linkText, to }) {
 
       <Link
         to={to}
-        className="mt-auto inline-flex w-fit items-center gap-1.5 text-sm font-semibold text-sage hover:underline"
+        className="group mt-auto inline-flex w-fit items-center gap-1.5 px-1 py-2 text-sm font-semibold text-sage hover:underline"
       >
         {linkText}
-        <ArrowRight size={16} aria-hidden="true" />
+        <ArrowRight 
+          size={16} 
+          aria-hidden="true"
+          className="motion-safe:transition-transform motion-safe:group-hover:translate-x-1"
+        />
       </Link>
 
     </article>

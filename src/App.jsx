@@ -11,6 +11,7 @@ import About from './pages/About'
 import Privacy from './pages/Privacy'
 import Disclaimer from './pages/Disclaimer'
 import Sources from './pages/Sources'
+import ToolDetails from './pages/sound-relief/tools/ToolDetails'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route element={<SiteLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/sound-relief" element={<SoundRelief />} />
+        <Route path="/sound-relief/:toolId" element={<ToolDetails />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/find-support" element={<FindSupport />} />

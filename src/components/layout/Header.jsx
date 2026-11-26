@@ -17,7 +17,7 @@ function Header() {
         {/* Logo */}
         <Link to="/" className="shrink-0">
           <img
-            src="/images/misophonia-logo.png"
+            src="/images/misophonia-logo.svg"
             alt="Misophonia Companion"
             className="h-auto w-56"
           />
