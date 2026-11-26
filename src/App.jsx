@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sound-relief" element={<SoundRelief />} />
         <Route path="/sound-relief/:toolId" element={<ToolDetails />} />
-        <Route path="/journal" element={<Journal />} />
+        <Route path="/journal/*" element={<Journal />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/find-support" element={<FindSupport />} />
         <Route path="/about" element={<About />} />

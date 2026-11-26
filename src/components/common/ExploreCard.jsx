@@ -15,7 +15,7 @@ function ExploreCard({ title, description, linkText, to }) {
 
       <Link
         to={to}
-        className="group mt-auto inline-flex w-fit items-center gap-1.5 px-1 py-2 text-sm font-semibold text-sage hover:underline"
+        className="group mt-auto inline-flex w-fit items-center gap-1.5 px-1 py-2 text-medium font-semibold text-sage hover:underline"
       >
         {linkText}
         <ArrowRight 
