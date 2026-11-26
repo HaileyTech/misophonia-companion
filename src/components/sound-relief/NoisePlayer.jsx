@@ -771,7 +771,7 @@ function NoisePlayer() {
                 ? () => finishSession()
                 : startSession
             }
-            className="inline-flex min-w-40 flex-1 items-center justify-center gap-3 rounded-full bg-sage px-6 py-3 font-semibold text-white transition-colors enabled:hover:bg-sage/90 disabled:cursor-not-allowed disabled:opacity-50"
+            className="inline-flex min-w-40 flex-1 items-center justify-center gap-3 rounded-full bg-sage px-6 py-3 font-semibold text-white transition-colors enabled:hover:bg-sage-dark disabled:cursor-not-allowed disabled:opacity-50"
           >
             {isActive ? (
               <>
@@ -805,7 +805,7 @@ function NoisePlayer() {
                 ? pauseSession
                 : resumeSession
             }
-            className="inline-flex items-center justify-center gap-3 rounded-full bg-sage px-6 py-3 font-semibold text-white transition-colors enabled:hover:bg-sage/90 disabled:opacity-50"
+            className="inline-flex items-center justify-center gap-3 rounded-full bg-sage px-6 py-3 font-semibold text-white transition-colors enabled:hover:bg-sage-dark disabled:opacity-50"
           >
             {status === 'playing' ? (
               <>
@@ -831,7 +831,7 @@ function NoisePlayer() {
           <button
             type="button"
             onClick={() => finishSession()}
-            className="inline-flex items-center justify-center gap-3 rounded-full bg-soft-sage px-6 py-3 font-semibold transition-colors hover:bg-pale-sage"
+            className="inline-flex items-center justify-center gap-3 rounded-full bg-soft-sage px-6 py-3 font-semibold transition-colors hover:bg-soft-sage-dark"
           >
             <Square
               size={16}
