@@ -1,5 +1,8 @@
+import InformationPage from '../components/common/InformationPage'
+import { footerPages } from '../data/footerPages'
+
 function Disclaimer() {
-  return <h1>Disclaimer</h1>
+  return <InformationPage page={footerPages.disclaimer} />
 }
 
 export default Disclaimer

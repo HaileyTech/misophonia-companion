@@ -1,5 +1,8 @@
+import InformationPage from '../components/common/InformationPage'
+import { footerPages } from '../data/footerPages'
+
 function About() {
-  return <h1>About</h1>
+  return <InformationPage page={footerPages.about} />
 }
 
 export default About

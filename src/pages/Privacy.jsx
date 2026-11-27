@@ -1,5 +1,8 @@
+import InformationPage from '../components/common/InformationPage'
+import { footerPages } from '../data/footerPages'
+
 function Privacy() {
-  return <h1>Privacy</h1>
+  return <InformationPage page={footerPages.privacy} />
 }
 
 export default Privacy
