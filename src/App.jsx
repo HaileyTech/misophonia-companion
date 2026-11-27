@@ -12,6 +12,7 @@ import Privacy from './pages/Privacy'
 import Disclaimer from './pages/Disclaimer'
 import Sources from './pages/Sources'
 import ToolDetails from './pages/sound-relief/tools/ToolDetails'
+import LearnArticle from './pages/learn/LearnArticle'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/sound-relief/:toolId" element={<ToolDetails />} />
         <Route path="/journal/*" element={<Journal />} />
         <Route path="/learn" element={<Learn />} />
+        <Route path="/learn/:articleId" element={<LearnArticle />} />
         <Route path="/find-support" element={<FindSupport />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacy" element={<Privacy />} />
