@@ -17,7 +17,10 @@ export const toolDetails = {
           "Foam earplugs are compressed before being gently placed in the ear canal, where they expand to create a seal. They're widely available and can reduce a substantial amount of sound when fitted correctly.",
           "They may be worth exploring when you want to lower the overall volume around you."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/foam-earplugs.jpg",
+          alt: "Two bright green foam earplugs, one upright and one lying on its side."
+        }
       },
       {
         "title": "Silicone earplugs",
@@ -26,7 +29,10 @@ export const toolDetails = {
           "Silicone earplugs come in different shapes and sizes. Some have a pre-shaped design with small sections that fit into the ear, while others use moldable silicone that sits over the opening of the ear canal.",
           "They can be convenient if you want an option you can use more than once."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/silicone-earplugs.png",
+          alt: "Two aqua-colored, triple-flanged silicone earplugs, one upright and one resting on its side."
+        }
       },
       {
         "title": "Filtered earplugs",
@@ -35,7 +41,10 @@ export const toolDetails = {
           "Filtered earplugs are designed to reduce sound while preserving more of its natural character. Some use special filters to lower different pitches more evenly, which can make music and conversation sound less muffled than they might with traditional foam earplugs.",
           "They may be worth considering in places where you still want to hear what's happening around you, such as a classroom, social gathering, or concert."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/filtered-earplugs.png",
+          alt: "Two filtered earplugs with translucent silicone tips and circular acoustic mesh filters."
+        }
       }
     ],
     "considerationsIntro": "There isn't one type of earplug that works for everyone. If you're thinking about trying a pair, here are a few things to keep in mind:",
@@ -93,7 +102,10 @@ export const toolDetails = {
           "Use built-in microphones and electronic processing to reduce certain surrounding sounds. They may be helpful in places with steady background noise, such as airplanes or busy public spaces.",
           "They may be worth exploring if you spend time in places with steady background noise and want to make those sounds less noticeable."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/noise-canceling-headphones.jpg",
+          alt: "Black over-ear wireless headphones with padded ear cups resting on a light textured surface."
+        }
       },
       {
         "title": "Noise-isolating headphones",
@@ -102,7 +114,10 @@ export const toolDetails = {
           "Use their shape, padding, and fit to physically reduce some outside sound. They don't require electronic noise-canceling technology, although the amount of isolation depends on the design.",
           "These can be a good option to consider if you want some physical separation from surrounding sounds without relying on electronic noise cancellation."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/noise-isolating-headphones.png",
+          alt: "Black wired, closed-back over-ear headphones with thick padded ear cushions and a visible audio cable."
+        }
       },
       {
         "title": "Earbuds",
@@ -111,7 +126,10 @@ export const toolDetails = {
           "Sit inside or just outside the ear canal. Some provide passive isolation, while others include active noise cancellation. Their small size makes them easy to carry, but comfort and fit can vary.",
           "They may be worth exploring if you prefer a smaller, portable option that you can easily carry and use in different settings."
         ],
-        "image": null
+      image: {
+        src: "/images/tools/earbuds.jpg",
+        alt: "Black wireless earbuds with silicone ear tips, one inside an open charging case and the other beside it on a white background."
+      }
       }
     ],
     "considerationsIntro": "The right headphones depend on what you're looking for and where you plan to use them. A few things worth considering include:",
@@ -164,7 +182,10 @@ export const toolDetails = {
           "Fidget rings are designed to be worn on your finger and often include rotating, spinning, or movable elements. Their small size makes them easy to keep with you throughout the day.",
           "They may be worth exploring if you prefer something discreet that you can use without needing to hold a separate object."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/fidget-rings.png",
+          alt: "A brushed silver fidget ring with a separate rotating outer band and polished inner edges."
+        }
       },
       {
         "title": "Fidget cubes",
@@ -173,7 +194,10 @@ export const toolDetails = {
           "Fidget cubes are small handheld objects with different features on each side. Depending on the design, these might include buttons, switches, rollers, or textured surfaces.",
           "They can be interesting to explore if you enjoy having several different tactile interactions in one object and like switching between them."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/fidget-cubes.png",
+          alt: "A white fidget cube featuring dark push buttons, a joystick, a metal roller ball, and textured rotating wheels."
+        }
       },
       {
         "title": "Stress and sensory objects",
@@ -182,7 +206,10 @@ export const toolDetails = {
           "These objects are designed to be squeezed, stretched, or molded by hand. Examples include stress balls, soft putty, and other flexible sensory items.",
           "They can be a good option to explore if you enjoy repetitive hand movements or prefer something soft that you can squeeze and reshape."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/stress-and-sensory-objects.png",
+          alt: "A collection of sensory objects on a white background, including a smooth green stress ball, a lavender textured sensory ball, and blue sensory putty in and beside a clear container."
+        }
       },
       {
         "title": "Textured objects",
@@ -191,7 +218,10 @@ export const toolDetails = {
           "Textured objects include items with different surfaces, patterns, or materials to touch. These might be smooth stones, textured keychains, fabric squares, or other small objects with interesting feels.",
           "They may be worth considering if you enjoy exploring different textures or prefer something simple without moving parts."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/textured-objects.png",
+          alt: "Three pastel-colored silicone sensory stones with different raised surface patterns, including dots, ridges, and waves."
+        }
       }
     ],
     "considerationsIntro": "Not every fidget tool will feel comfortable or enjoyable. If you're thinking about trying one, here are a few things to keep in mind:",
@@ -234,7 +264,10 @@ export const toolDetails = {
           "Dedicated sound machines are standalone devices designed to play continuous background sounds. Depending on the model, they may offer several sound options, adjustable volume, and built-in timers.",
           "They may be worth exploring if you want a device specifically for background sound that doesn't require opening an app or using your phone."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/dedicated-sound-machines.png",
+          alt: "A cream-white tabletop sound machine with a gray fabric speaker grille and buttons for sound selection, volume, timer, and power."
+        }
       },
       {
         "title": "Portable sound machines",
@@ -243,7 +276,10 @@ export const toolDetails = {
           "Portable sound machines are smaller devices intended for travel or use in different environments. Some are rechargeable or battery-powered, making them easier to bring along when you're away from home.",
           "They can be a convenient option if you enjoy having familiar background sounds available in more than one place."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/portable-sound-machines.png",
+          alt: "A compact sage-green portable sound machine with a perforated speaker grille, sound and volume controls, a charging port, and a carrying loop."
+        }
       },
       {
         "title": "Sound machine apps",
@@ -252,7 +288,10 @@ export const toolDetails = {
           "Sound machine apps provide background noise and ambient sounds through a phone, tablet, or other device. Many offer different sound categories, adjustable volume, and options for playing sounds continuously or for a set amount of time.",
           "They may be worth considering if you want to explore different sounds without purchasing a separate device. Just keep in mind that you'll need a device to play them, and some apps may include advertisements or paid features."
         ],
-        "image": null
+        image: {
+          src: "/images/tools/sound-machine-apps.png",
+          alt: "A smartphone displaying a background sound app with rain, ocean, white noise, and forest sound options, along with playback, volume, and timer controls."
+        }
       }
     ],
     "considerationsIntro": "The right sound machine depends on your preferences and how you plan to use it. Here are a few things worth thinking about:",

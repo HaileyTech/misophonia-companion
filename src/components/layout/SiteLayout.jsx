@@ -4,11 +4,23 @@ import Header from './Header'
 import Footer from './Footer'
 
 function SiteLayout() {
-  const { pathname } = useLocation()
+  const { pathname, hash } = useLocation()
 
   useEffect(() => {
+    if (hash) {
+      const frame = requestAnimationFrame(() => {
+        const element = document.getElementById(hash.slice(1))
+
+        if (element) {
+          element.scrollIntoView({ block: "start" })
+        }
+      })
+
+      return () => cancelAnimationFrame(frame)
+    }
+
     window.scrollTo(0, 0)
-  }, [pathname])
+  }, [pathname, hash])
 
   return (
     <div className="flex min-h-screen flex-col">

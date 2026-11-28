@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { ArrowLeft, ArrowUpRight } from 'lucide-react'
+import { ArrowLeft, ArrowUpRight, Info } from 'lucide-react'
 
 import ToolCard from '../../../components/sound-relief/ToolCard'
 import ToolTypeCard from '../../../components/sound-relief/ToolTypeCard'
@@ -64,6 +64,25 @@ function ToolDetails() {
           ))}
         </div>
       </section>
+
+      <div className="mt-4 flex items-start gap-2 text-sm leading-relaxed text-secondary">
+        <Info
+          size={17}
+          className="mt-0.5 shrink-0"
+          aria-hidden="true"
+        />
+
+        <p>
+          Images are provided for illustrative purposes and include both
+          photographs and AI-generated illustrations.{" "}
+          <Link
+            to="/sources#image-credits"
+            className="font-medium text-sage underline underline-offset-2 hover:text-charcoal"
+          >
+            View image credits.
+          </Link>
+        </p>
+      </div>
 
       {/* Practical considerations */}
       <section className="mt-9" aria-labelledby="considerations-heading">

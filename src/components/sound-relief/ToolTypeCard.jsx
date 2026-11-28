@@ -4,7 +4,7 @@ function ToolTypeCard({ type }) {
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-secondary/40 bg-white">
       {/* Optional product-type illustration. */}
-      <div className="flex aspect-[16/9] items-center justify-center overflow-hidden bg-blue-gray">
+      <div className="flex aspect-[16/9] items-center justify-center overflow-hidden bg-white">
         {type.image ? (
           <img
             src={type.image.src}
