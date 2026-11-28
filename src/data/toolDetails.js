@@ -104,7 +104,8 @@ export const toolDetails = {
         ],
         image: {
           src: "/images/tools/noise-canceling-headphones.jpg",
-          alt: "Black over-ear wireless headphones with padded ear cups resting on a light textured surface."
+          alt: "Black over-ear wireless headphones with padded ear cups resting on a light textured surface.",
+          backgroundColor: "#EBE9F6"
         }
       },
       {
@@ -126,10 +127,11 @@ export const toolDetails = {
           "Sit inside or just outside the ear canal. Some provide passive isolation, while others include active noise cancellation. Their small size makes them easy to carry, but comfort and fit can vary.",
           "They may be worth exploring if you prefer a smaller, portable option that you can easily carry and use in different settings."
         ],
-      image: {
-        src: "/images/tools/earbuds.jpg",
-        alt: "Black wireless earbuds with silicone ear tips, one inside an open charging case and the other beside it on a white background."
-      }
+        image: {
+          src: "/images/tools/earbuds.jpg",
+          alt: "Black wireless earbuds with silicone ear tips, one inside an open charging case and the other beside it on a white background.",
+          fit: "cover"
+        }
       }
     ],
     "considerationsIntro": "The right headphones depend on what you're looking for and where you plan to use them. A few things worth considering include:",
@@ -196,7 +198,9 @@ export const toolDetails = {
         ],
         image: {
           src: "/images/tools/fidget-cubes.png",
-          alt: "A white fidget cube featuring dark push buttons, a joystick, a metal roller ball, and textured rotating wheels."
+          alt: "A white fidget cube featuring dark push buttons, a joystick, a metal roller ball, and textured rotating wheels.",
+          fit: "cover",
+          zoom: 1.25
         }
       },
       {

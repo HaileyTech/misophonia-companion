@@ -80,8 +80,8 @@ function ImageCredits() {
       <p className="mt-4 leading-relaxed">
         Images throughout the Sound Relief exploration pages
         are provided for educational and illustrative purposes.
-        They include photographs from openly licensed sources
-        and AI-generated representations of general product types.
+        They include photographs licensed for reuse and AI-generated 
+        representations of general product types.
         These images are not product endorsements.
       </p>
 

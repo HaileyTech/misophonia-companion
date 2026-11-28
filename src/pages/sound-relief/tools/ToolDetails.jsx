@@ -58,31 +58,41 @@ function ToolDetails() {
         <h2 id="types-heading" className="mb-4 text-2xl font-bold">
           Types to explore
         </h2>
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+        <div
+          className={`grid grid-cols-1 gap-5 sm:grid-cols-2 ${
+            details.types.length === 4
+              ? 'lg:grid-cols-2'
+              : 'lg:grid-cols-3'
+          }`}
+        >
           {details.types.map((type) => (
             <ToolTypeCard key={type.title} type={type} />
           ))}
         </div>
+
+        {/* Image disclosure */}
+        <div className="mt-4 flex items-start gap-2 text-sm leading-relaxed text-secondary">
+          <Info
+            size={17}
+            className="mt-0.5 shrink-0"
+            aria-hidden="true"
+          />
+
+          <p>
+            {tool.id === 'sound-machines'
+              ? 'Images in this section are AI-generated illustrations provided for illustrative purposes.'
+              : 'Images are provided for illustrative purposes and include photographs and AI-generated illustrations.'}
+            {' '}
+            <Link
+              to="/sources#image-credits"
+              className="font-medium text-sage underline underline-offset-2 hover:text-charcoal"
+            >
+              View image credits.
+            </Link>
+          </p>
+        </div>
       </section>
-
-      <div className="mt-4 flex items-start gap-2 text-sm leading-relaxed text-secondary">
-        <Info
-          size={17}
-          className="mt-0.5 shrink-0"
-          aria-hidden="true"
-        />
-
-        <p>
-          Images are provided for illustrative purposes and include both
-          photographs and AI-generated illustrations.{" "}
-          <Link
-            to="/sources#image-credits"
-            className="font-medium text-sage underline underline-offset-2 hover:text-charcoal"
-          >
-            View image credits.
-          </Link>
-        </p>
-      </div>
 
       {/* Practical considerations */}
       <section className="mt-9" aria-labelledby="considerations-heading">

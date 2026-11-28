@@ -72,16 +72,19 @@ function InformationBlock({ block }) {
   }
 }
 
-function InformationPage({ page }) {
+function InformationPage({ page, children }) {
   return (
     <div className="page-container py-8 sm:py-10">
       <article className="mx-auto max-w-5xl text-base leading-relaxed">
         <h1 className="mb-4 text-3xl font-bold leading-tight sm:text-4xl">
           {page.title}
         </h1>
+
         {page.blocks.map((block, index) => (
           <InformationBlock key={index} block={block} />
         ))}
+
+        {children}
       </article>
     </div>
   )
